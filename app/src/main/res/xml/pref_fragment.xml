@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+    </PreferenceCategory>
+    <ListPreference
+        android:key="list_preference"
+        android:title="Distance picker"
+        android:entries="@array/girds"
+        android:entryValues="@array/girds"
+        android:dialogTitle="Choose Distance"
+        android:summary="choose from Km or Miles"
+        />
+
+</PreferenceScreen>

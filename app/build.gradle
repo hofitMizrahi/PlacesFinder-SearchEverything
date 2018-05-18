@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.example.user.findplacesnearfinal"
+        minSdkVersion 15
+        targetSdkVersion 26
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+
+    compile 'com.google.android.gms:play-services-ads:11.2.0'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.google.firebase:firebase-ads:11.6.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //RECYCLER VIEW
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+
+    //Google services for Ads
+
+    //DB
+    compile 'com.github.satyan:sugar:1.5'
+
+    //retrofit
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    //Swipe
+    compile "com.daimajia.swipelayout:library:1.2.0@aar"
+
+    //Picasso library
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    //Shape library
+    compile 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
+
+    //Sticky Switch library
+    compile 'com.github.GwonHyeok:StickySwitch:0.0.15'
+
+    //google Play service
+    implementation 'com.google.android.gms:play-services:11.6.2'
+
+    //SeekBar Library
+    compile 'com.xw.repo:bubbleseekbar:3.5-lite'
+
+    //ImageShape library
+    compile 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
+
+    //SlidePanel
+    compile 'com.sothree.slidinguppanel:library:3.4.0'
+
+    //Direction library
+    compile 'com.akexorcist:googledirectionlibrary:1.1.1'
+
+}

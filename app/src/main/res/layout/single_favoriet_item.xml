@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="2"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp">
+
+
+    <com.github.siyamed.shapeimageview.CircularImageView
+
+            app:siBorderAlpha="2"
+            android:id="@+id/favorite_IV"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            app:siBorderWidth="2dp"
+            android:layout_height="1550dp"
+            android:layout_weight="1"
+            app:siBorderColor="#000000"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:srcCompat="@drawable/mr_dialog_close_light" />
+
+    <LinearLayout
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:id="@+id/title_favorites_TV"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:lines="1"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

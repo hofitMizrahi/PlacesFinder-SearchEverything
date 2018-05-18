@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "793627683986",
+    "firebase_url": "https://placesfinder-searcheverything.firebaseio.com",
+    "project_id": "placesfinder-searcheverything",
+    "storage_bucket": "placesfinder-searcheverything.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793627683986:android:01d29c55715f5fd4",
+        "android_client_info": {
+          "package_name": "com.example.user.findplacesnearfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793627683986-56eult0ckocmt9441h26jvidlpkvp8ji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.findplacesnearfinal",
+            "certificate_hash": "56b4588ac7ccef8357afa57cc4c8d15e6fbaa28f"
+          }
+        },
+        {
+          "client_id": "793627683986-j9d3oi24je209i31u1oeab4antioctfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhxdo6e9bGrQeDXbepWAaGoNquBnr7ZUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793627683986-j9d3oi24je209i31u1oeab4antioctfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

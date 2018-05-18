@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/sliding_layout"
+    android:gravity="bottom"
+    android:background="#00000000"
+    sothree:umanoPanelHeight="70dp"
+    sothree:umanoShadowHeight="100dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map_layout">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:id="@+id/info_layout"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_weight="5">
+
+            <ImageView
+                android:id="@+id/returm_info_IV"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="12dp"
+                app:srcCompat="@drawable/return_arrow" />
+
+
+            <ImageView
+                android:id="@+id/location_info_IV"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp"
+                app:srcCompat="@drawable/gps" />
+
+
+            <ImageView
+                android:id="@+id/walk_info_IV"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:paddingBottom="9dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:paddingTop="9dp"
+                app:srcCompat="@drawable/walk_man" />
+
+
+            <ImageView
+                android:id="@+id/share_info_IV"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:paddingBottom="11dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="15dp"
+                android:paddingTop="11dp"
+                app:srcCompat="@drawable/share_image" />
+
+
+            <ImageView
+                android:id="@+id/carImage_info"
+                android:layout_weight="1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                app:srcCompat="@drawable/car" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_gravity="left|center"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:id="@+id/name_info"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+            <com.github.siyamed.shapeimageview.RoundedImageView
+                app:siRadius="10dp"
+                app:siBorderWidth="0dp"
+                app:siSquare="true"
+                app:siBorderColor="#1c99e2"
+                android:id="@+id/image_info"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/address_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lines="2"
+                android:paddingLeft="8dp"
+                android:text="street" />
+
+    </LinearLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
