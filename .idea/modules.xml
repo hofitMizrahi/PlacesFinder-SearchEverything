@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\user\Desktop\finalprojectfixed-dfb1ecd8c5a72f5934db675906fa4e639b437375\Final_project-master.iml" filepath="C:\Users\user\Desktop\finalprojectfixed-dfb1ecd8c5a72f5934db675906fa4e639b437375\Final_project-master.iml" />
-      <module fileurl="file://C:\Users\user\Desktop\Final_project-master\FindPlacesNearFinal.iml" filepath="C:\Users\user\Desktop\Final_project-master\FindPlacesNearFinal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PlacesFinder-SearchEverything-master.iml" filepath="$PROJECT_DIR$/PlacesFinder-SearchEverything-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlacesFinder-SearchEverything.iml" filepath="$PROJECT_DIR$/PlacesFinder-SearchEverything.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\user\Desktop\PlacesFinder-SearchEverything-master\app\app.iml" filepath="C:\Users\user\Desktop\PlacesFinder-SearchEverything-master\app\app.iml" />
-      <module fileurl="file://C:\Users\user\Desktop\PlacesFinder-SearchEverything-master\finalprojectfixed-dfb1ecd8c5a72f5934db675906fa4e639b437375.iml" filepath="C:\Users\user\Desktop\PlacesFinder-SearchEverything-master\finalprojectfixed-dfb1ecd8c5a72f5934db675906fa4e639b437375.iml" />
     </modules>
   </component>
 </project>

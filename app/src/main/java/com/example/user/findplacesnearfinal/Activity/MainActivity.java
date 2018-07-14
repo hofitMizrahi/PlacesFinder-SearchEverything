@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements MyFragmentChanger
 
     private AdView mAdView;
 
+
+
+    
     // use for john bryce final project - power connected
 //    BroadcastReceiver connectedBroadcast;
 //    BroadcastReceiver disconnectedBroadcast;
